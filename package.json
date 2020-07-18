@@ -1,0 +1,26 @@
+{
+  "name": "discord-lobby",
+  "version": "3.0.3",
+  "description": "Simple Discord.js Module that handle basic lobby function",
+  "main": "discord-lobby.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-cron": "^1.2.1"
+  },
+  "keywords": [
+    "Discord",
+    "lobby",
+    "welcome",
+    "discord.js",
+    "reaction"
+  ],
+  "author": "Flisher",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/FlisherOfatale/discord-lobby.git"
+  }
+
+}
