@@ -1,7 +1,7 @@
 <p align="center"><a href="https://nodei.co/npm/discord-lobby/"><img src="https://nodei.co/npm/discord-lobby.png"></a></p>
 
 # discord-lobby
-Simple Discord.js V12 Module that handle basic captive lobby functions
+Simple Discord.js v12 Module that handle basic captive lobby functions
 Latest version of this module is only compatible with DiscordJS V12.1.1 and up.
 
 This module should be configured to watch captive or read-only lobby, with a limited number of message.
@@ -18,6 +18,10 @@ It can be lowered or increased to a maximum of 300 to limit spaming API call.
 This module can be loaded as standalone, or witin the bot.on("ready") if configured properly.
 This option was added with 2.1.0 and is backward compatible without any configuration change.
 It was added to avoid reaching the default maximum listeners to quickly.
+
+## Discord.js v11 compatibility
+You can install the last version working with Discord.js v11 by using "npm install discord-lobby@discord.js-v11".  
+While this version should work, it's not maintainted anymore.
 
 ## Installation
 This module assumes you already have a basic [Discord.js](https://discord.js.org/#/) bot setup.
@@ -63,21 +67,7 @@ Liens:  https://www.bucherons.ca et https://www.gardiensdulys.com
 You can reach me via my Discord Development Server at https://discord.gg/Tmtjkwz
 
 ###History:  
-3.0.3	Added reference to github repository
-3.0.2	Minor fix to README.md 
-3.0.1	Added deprecation warning if using v11, removed doscordjs from the depedency in package.json
-3.0.0	Initial push for DiscordJS V12.0.1
-2.2.1   NodeJS Beautified - Latest Build for DiscordJS 11.5.1
-2.2.0   NodeJS Linting
-2.1.3   Fixed missed declaration of guild variable for error on previous line 141
-2.1.2   2nd fix on onReady
-2.1.1   Fixed onReady to async  
-2.1.0   new onReady Mechanism  
-2.0.7   Added more explicit variable declaration to avoid potential issues and adjusted console.log format for consistency across modules  
-2.0.6   explicitely defined guild in loop to avoid conflit when multiple guild are loaded  
-2.0.5   removed lefover debug message  
-2.0.4   Fixed some variable declaration to prevent race condition  
-2.0.3   Fixed version in description of the module  
-2.0.2   Changed logic evaluation related to channel.send  
-2.0.1   Removed verbose try message and ajusted README.md formatting  
-2.0.0	Initial Public Release based on Flisher private discord-bienvenue module  
+3.0.4	Tagged and documented v11 properly  
+3.0.3	Added reference to github repository  
+3.0.0	Initial push for DiscordJS V12.0.1  
+2.2.1   NodeJS Beautified - Latest Build for DiscordJS 11.5.1  

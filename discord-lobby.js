@@ -2,7 +2,7 @@
 
 Module discord-lobby
 Authors: Flisher
-Version: 3.0.3
+Version: 3.0.4
 
 Todo:
     -Validate Discord App Intention and give proper warning
@@ -24,7 +24,7 @@ module.exports = (bot, options) => {
 
     // Check if version is 12, if not, abort
     let DiscordJSversion = require('discord.js').version
-    if ( DiscordJSversion.substring(0,2) !== "12" ) console.error(`This version of discord-lobby only run on DiscordJS v12 and up, please run "npm install discord-lobby@2.2.1" to install an DiscordJS v11`)
+    if ( DiscordJSversion.substring(0,2) !== "12" ) console.error(`This version of discord-lobby only run on DiscordJS v12 and up, please run "npm install discord-lobby@discord.js-v11" to install an DiscordJS v11`)
     if ( DiscordJSversion.substring(0,2) !== "12" ) return
 
     if (options.AlreadyReady === true) {

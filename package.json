@@ -1,7 +1,7 @@
 {
   "name": "discord-lobby",
-  "version": "3.0.3",
-  "description": "Simple Discord.js Module that handle basic lobby function",
+  "version": "3.0.4",
+  "description": "Simple Discord.js v12 Module that handle basic lobby function",
   "main": "discord-lobby.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
